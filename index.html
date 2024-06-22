@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Electrical Calculations</h1>
+        <div class="form-group">
+            <label for="voltage">Voltage (V):</label>
+            <input type="number" id="voltage" placeholder="Enter voltage">
+        </div>
+        <div class="form-group">
+            <label for="current">Current (I):</label>
+            <input type="number" id="current" placeholder="Enter current">
+        </div>
+        <div class="form-group">
+            <label for="resistance">Resistance (R):</label>
+            <input type="number" id="resistance" placeholder="Enter resistance">
+        </div>
+        <div class="form-group">
+            <label for="power">Power (P):</label>
+            <input type="number" id="power" placeholder="Enter power">
+        </div>
+        <button onclick="calculate()">Calculate</button>
+        <div class="results">
+            <h2>Results:</h2>
+            <p id="result-voltage"></p>
+            <p id="result-current"></p>
+            <p id="result-resistance"></p>
+            <p id="result-power"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
